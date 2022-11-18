@@ -1,0 +1,21 @@
+.gradle/
+.idea/
+out/
+build/
+*.db
+.iml
+/logs/
+logs-ca-web-console/
+logs-ssm/
+*.iml
+npm-debug.log
+src/main/resources/frontend/*
+scripts
+/configuration/**
+src/test/resources/
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
