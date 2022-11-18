@@ -1,0 +1,10 @@
+.gradle/
+.idea/
+out/
+build/
+*.db
+.iml
+/logs/
+*.iml
+npm-debug.log
+/configuration/**
