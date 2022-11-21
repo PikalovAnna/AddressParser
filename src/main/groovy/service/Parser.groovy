@@ -1,3 +1,5 @@
+package service
+
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
@@ -314,7 +316,7 @@ class Parser {
 
     static void main(String[] args) {
         def recNum = 200000
-        List<Address> records = downloadRecordsFromFile(recNum)
+        List<service.Address> records = downloadRecordsFromFile(recNum)
         def result = getAddressObject(records?.collect{it?.registrationAddress})
 //        result?.each{
 //            println(getFullAddressString(it))
